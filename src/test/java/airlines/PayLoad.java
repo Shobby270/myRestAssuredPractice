@@ -1,4 +1,4 @@
-package payLoads;
+package airlines;
 
 import java.util.HashMap;
 

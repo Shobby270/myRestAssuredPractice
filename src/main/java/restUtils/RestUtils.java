@@ -4,6 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class RestUtils {
 
@@ -32,7 +33,7 @@ public class RestUtils {
 
     }
 
-    public static Response createPostRequestbyMap(String endPoint, HashMap<String,Object> payLoadMap, HashMap<String,String>header)
+    public static Response createPostRequestbyMap(String endPoint, Map<String,Object> payLoadMap, HashMap<String,String>header)
     {
 
         return RestAssured
